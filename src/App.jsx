@@ -1,4 +1,5 @@
 
+import About from './components/About'
 import Hero from './components/Hero'
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <>
     <main className='relative min-h-screen w-screen overflow-x-hidden'>
       <Hero/>
+      <About/>
     </main>
     </>
   )
