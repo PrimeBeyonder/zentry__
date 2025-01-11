@@ -5,7 +5,7 @@ import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 
-import Button from "./Button";
+import Buttom from "./Buttom";
 
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
@@ -74,7 +74,7 @@ const NavBar = () => {
           <div className="flex items-center gap-7">
             <img src="/img/logo.png" alt="logo" className="w-10" />
 
-            <Button
+            <Buttom
               id="product-button"
               title="Products"
               rightIcon={<TiLocationArrow />}
@@ -82,7 +82,6 @@ const NavBar = () => {
             />
           </div>
 
-          {/* Navigation Links and Audio Button */}
           <div className="flex h-full items-center">
             <div className="hidden md:block">
               {navItems.map((item, index) => (
